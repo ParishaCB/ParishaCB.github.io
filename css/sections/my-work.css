@@ -1,0 +1,59 @@
+.my-work__main {
+    padding: 40px;
+    margin: 30px;
+    font-family: var(--fontstyle-1);
+    display: inline-block;
+    border: 3px solid rgba(64, 224, 208, 0.701);
+    border-radius: 15px;
+    height: 320px;
+    width: 350px;
+    text-align: center;
+    left: 80%;
+    transform: translate(18%);
+    overflow: hidden;
+    transition: .3s ease-in-out;
+}
+
+.my-work__title {
+    font-size: 18px;
+}
+
+.my-work__desc {
+    font-size: 14px;
+}
+
+.my-work__tech {
+    font-size: 13px;
+    font-weight: 600;
+    word-spacing: 2px;
+    color: rgb(17, 50, 50);
+}
+
+.educatic-link {
+    text-decoration: none;
+    color: var(--color-black);
+}
+.github-link { 
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 85%;
+    top: 10%;
+}
+.project-link { 
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 85%;
+    top: 10%;
+}
+
+.my-work__main:hover {
+    background-color: rgba(64, 224, 208, 0.701);
+}
+.github-link:hover {
+    transform: scale(1.3);
+}
+.project-link:hover {
+    transform: scale(1.3);
+}

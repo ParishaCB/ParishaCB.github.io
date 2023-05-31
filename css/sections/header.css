@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    overflow: hidden;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    padding: 50px;
+}
+.logo img {
+    width: 150px;
+}
+
+.nav-container {
+    padding: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 60px;
+}
+
+.menu-links li {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-family: var(--fontstyle-1);
+    font-size: 16px;
+    /* line-height: 20px; */
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+}
+.menu-links li a {
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    color: var(--color-black);
+}
+
+.menu-links li a:hover {
+    background-color: rgba(64, 224, 208, 0.701);
+    border-radius: 300px;
+}
+
+.header-content {
+    padding-left: 280px;
+    padding-top: 90px;
+}
+.header-content__main {
+    font-family: var(--fontstyle-1);
+    color: rgb(202, 202, 202);
+    font-size: 60px;
+}
+.header-content__sub {
+    font-size: 40px;
+    font-family: var(--fontstyle-1);
+    font-weight: 600;
+}
+.typing {
+    overflow: hidden; 
+    white-space: nowrap;
+    display: inline-block;
+    border-right: 2px solid black; 
+    margin: 0 auto; 
+    width: auto;
+    font-family: var(--fontstyle-1);
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { max-width: 0% }
+    to { max-width: 100% }
+}
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: black}
+}
+
+.more-button {
+    background-color: cornflowerblue;
+    color: var(--color-white);
+    border-style: none;
+    padding: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: var(--fontstyle-1);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.more-button:hover {
+    background-color: rgba(0, 193, 174, 0.744);
+}
+
+/* Mobile Menu Styling */
+
+.menu-mobile {
+    visibility: hidden;
+}

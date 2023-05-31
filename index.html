@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <title>Parisha Portfolio</title>
+</head>
+<body>
+
+  <!-- Scroll to top button -->
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+  <!-- Scroll to top button ends -->
+
+  <!-- Loading Animation Starts: a basic preloader; used a gif as the animation -->
+  <!-- <div class="wrapper" id="loader">
+    <div class="loader">
+      <img src="./assets/loading-bar.gif" alt="loading-gif">
+      <h1 class="loader-text">Loading</h1>
+    </div>
+  </div>  -->
+  <!-- Loading Animation Code Ends -->
+    
+  <!-- Header Code: contains the logo, the nav links, and a brief introduction about my site -->
+  <header class="header" id="home" data-aos="fade-down" data-aos-duration="2000">
+    <div class="logo">
+      <a href="#home"><img src="./assets/logo.png" alt="logo"></a>
+    </div>
+
+    <nav class="nav-container">
+      <ul class="menu-links">
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#myexperience">My Experience</a></li>
+        <li><a href="#mywork">My Work</a></li>
+        <li><a href="#contactme">Contact Me</a></li>
+        <li><a href="./assets/parisha_cv.pdf" target="_blank">My CV</a></li>
+      </ul>
+
+      <a href="https://github.com/parishacb" target="_blank" class="social-links">
+        <img src="./assets/github.png" alt="github" width="30px" height="30px">
+      </a>
+
+      <a href="https://linkedin.com/in/parishab" target="_blank" class="social-links">
+        <img src="./assets/linkedin.png" alt="linkedin" width="30px" height="30px">
+      </a>
+
+      <!-- Mobile Responsive Menu: for smaller screens, i added a hamburger menu to collapse the menu links -->
+      <div class="menu-mobile" data-aos="fade-down">
+        <img src="./assets/menu-bar.png" alt="hamburger-menu" width="20px" height="20px">
+      </div>
+    </nav>
+ 
+  </header>
+
+    <!-- Content for the header includes a brief intro about me and a button to automatically scroll to next section -->
+      <div class="header-content" data-aos="fade-down" data-aos-duration="1000">
+      <h1 class="header-content__main">Hi there, 👋🏽</h1><br><br>
+      <p class="header-content__sub">My name is Parisha, and I'm an aspiring web developer!</p><br><br>
+      <p class="header-content__sub typing">Welcome to my little corner on the web...</p><br><br>
+      <a href="#aboutme">
+        <button class="more-button">Tell Me More</button>
+      </a>
+    </div>
+    <br><br><br>
+  <!-- Header Code Ends -->
+
+  <!-- About Me Section Starts -->
+  <section id="aboutme" class="about-me" data-aos="fade-right" data-aos-duration="2000">
+    <h1 class="about-me__main">About Me</h1><br><br>
+    <p class="about-me__sub">Hey there, 👋🏽 nice to meet you! My name is Parisha and I enjoy developing and managing things on the web.<br>
+    <br> My interest for web development started back in 2020 where I created a basic website promoting internet safety – turns out 
+    I enjoyed HTML & CSS more than I imagined.<br>
+    Fast forward to today, I’ve graduated in IT and it has been an amazing journey since!<br>
+    <br>I’ve had the opportunity to work with a small business to get them online, worked on personal projects, 
+    all with a goal of building accessible, user-friendly and solutions for real-world problems.
+
+    <br>Here are the main technologies I've learnt skills in: <br>
+      HTML, CSS, JavaScript, PHP, WordPress<br>
+      
+    <br> And I'm currently learning: <br>
+      React, Node.js, Typescript<br>
+
+      <br>(You can check out some of my projects <a href="#mywork" class="about-link">here</a>)<br>
+    </p>
+  </section>
+  <!-- About Me Section Ends -->
+
+  <!-- My Experience Section Starts -->
+  <section id="myexperience" class="exp-container" data-aos="fade-left" data-aos-duration="2000">
+    <h1 class="exp-main">My Experience</h1>
+
+    <!-- Highlight Effect Starts-->
+    <svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+      <defs>
+        <filter id="marker-shape">
+          <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+          <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+        </filter>
+      </defs>
+    </svg>
+    <!-- Highlight Effect Ends -->
+
+    <div class="timeline">
+      <div class="line"></div>
+      <div class="section">
+          <div class="bead"></div>
+          <div class="content">
+              <h2><span class="highlight">2021-2022</span></h2>
+              <p>
+                Website Content Assistant @ Plentiful Foods Indian Spice Limited<br><br>
+                I worked closely with the website developer and shop owner to align all content with the business objectives. 
+                By optimizing and enhancing product visuals through Photoshop, the overall look and feel of the website was significantly improved, 
+                resulting in a remarkable 20% increase in website traffic. 
+              </p>
+          </div>
+      </div>
+
+      <div class="section">
+        <div class="bead"></div>
+        <div class="content">
+            <h2><span class="highlight">2014-2017</span></h2>
+            <p>
+              Digital Leader @ Childnet International<br><br>
+              I hosted impactful e-safety assemblies and workshops, reaching over 500 students and equipping them with practical tips and advice to stay safe online. 
+              I successfully completed an online training course to become a qualified Digital Leader, scoring 100% on the certification exam. 
+              I also worked closely with teachers and parents to raise awareness of online safety, resulting in a notable 50% increase in parental engagement in digital safety discussions. 
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+      <div class="bead"></div>
+      <div class="content">
+          <h2><span class="highlight">Oct 2016</span></h2>
+          <p>
+            SB Way Ambassador @ Sarah Bonnell School<br><br>
+            In my role, I provided individualized support to specific students, offering one-on-one assistance tailored to their unique needs. 
+            By offering personalized guidance and assistance, I helped students thrive in both their academic and personal endeavors. 
+            Through my efforts, I aimed to empower students, boost their confidence, and foster a positive and successful educational journey.
+          </p>
+      </div>
+  </div>
+
+  <div class="section">
+    <div class="bead"></div>
+    <div class="content">
+        <h2><span class="highlight">Sep 2016</span></h2>
+        <p>
+          Clerical Assistant @ East Thames Limited<br><br>
+          I successfully managed and updated computer information, leading to an error-free database. 
+          Effectively collaborated with various teams within the housing association.
+          Additionally, I accurately entered repair orders into the system, maintaining a perfect 100% accuracy rate. 
+          This contributed significantly to the overall efficiency and effectiveness of property maintenance operations. 
+        </p>
+    </div>
+  </div>
+  </div>
+  </section>
+  <!-- My Experience Section Ends -->
+
+  <!-- My Work Section Starts -->
+  <section id="mywork" class="exp-container" data-aos="fade-right" data-aos-duration="2000">
+    <h1 class="exp-main">My Work</h1>
+
+      <div class="my-work__main">
+        <a href="https://github.com/ParishaCB/academic-networking-app" target="_blank">
+          <img src="./assets/github.png" alt="github-link" class="github-link">
+        </a>
+        <a href="https://educaticnetworking.000webhostapp.com/" target="blank" class="educatic-link">
+        <img src="./assets/link.png" alt="link" class="project-link">
+      </a>
+        <div class="my-work__title">
+          <h2>Academic Networking App</h2><br>
+        </div>
+        <div class="my-work__desc">
+          <p>Built a networking app that can be used
+            at university. <br><br> Allows students to connect with 
+            other like-minded students.
+          </p><br><br>
+        </div>
+        <div class="my-work__tech">
+          <p>HTML CSS JavaScript JQuery PHP MySQL</p>
+        </div>
+      </div>
+
+      <div class="my-work__main">
+        <a href="https://github.com/ParishaCB/k-town-chicken-project" target="_blank">
+          <img src="./assets/github.png" alt="github-link" class="github-link">
+        </a>
+        <div class="my-work__title">
+          <h2>Responsive <br>Website Project</h2><br>
+        </div>
+        <div class="my-work__desc">
+          <p>Built a fully responsive website for an example project I 
+            called 'K-Town Chicken'. <br><br> Used animations & learnt to use the
+            BEM naming method.
+          </p><br><br>
+        </div>
+        <div class="my-work__tech">
+          <p>HTML CSS JavaScript Node.js</p>
+        </div>
+      </div>
+
+      <div class="my-work__main">
+        <a href="https://github.com/ParishaCB/JavaScript-Projects/tree/main/Frontend%20Movie%20Search%20App" target="_blank">
+          <img src="./assets/github.png" alt="github-link" class="github-link">
+        </a>
+        <div class="my-work__title">
+          <h2>Frontend Movie Search App</h2><br>
+        </div>
+        <div class="my-work__desc">
+          <p>Full-stack web development project.<br><br> 
+            Created a backend API to create movie reviews and connected the front and backend.
+          </p><br><br>
+        </div>
+        <div class="my-work__tech">
+          <p>JavaScript Node.js Express MongoDB</p>
+        </div>
+      </div>
+
+      <div class="my-work__main">
+        <a href="https://github.com/ParishaCB/JavaScript-Projects/tree/main/JS%20RPG" target="_blank">
+          <img src="./assets/github.png" alt="github-link" class="github-link">
+        </a>
+        <div class="my-work__title">
+          <h2>Basic <br>JavaScript RPG</h2><br>
+        </div>
+        <div class="my-work__desc">
+          <p>Followed a tutorial by freeCodeCamp.org and coded a simple game.<br><br> 
+            Applied a lot of concepts from JS and managed to code the game successfully.
+          </p><br><br>
+        </div>
+        <div class="my-work__tech">
+          <p>HTML CSS JavaScript</p>
+        </div>
+      </div>
+
+      <div class="my-work__main">
+        <a href="https://github.com/ParishaCB/JavaScript-Projects/tree/main/JS%20RPG" target="_blank">
+          <img src="./assets/github.png" alt="github-link" class="github-link">
+        </a>
+        <div class="my-work__title">
+          <h2>JavaScript <br>To Do List</h2><br>
+        </div>
+        <div class="my-work__desc">
+          <p>Basic to do list that remembers what a user adds by saving it to local storage.<br><br> 
+            Can be customised by allowing the user to add their name and new categories.
+          </p><br><br>
+        </div>
+        <div class="my-work__tech">
+          <p>HTML CSS JavaScript</p>
+        </div>
+      </div>
+
+      <div class="my-work__main">
+        <a href="https://github.com/ParishaCB/photography-website" target="_blank">
+          <img src="./assets/github.png" alt="github-link" class="github-link">
+        </a>
+        <div class="my-work__title">
+          <h2>Photography Website Assignment</h2><br>
+        </div>
+        <div class="my-work__desc">
+          <p>Built a website based on a client specification as part of an
+            assignment.<br><br> Mainly used PHP to implement the required features.
+          </p><br><br>
+        </div>
+        <div class="my-work__tech">
+          <p>HTML CSS PHP</p>
+        </div>
+      </div>
+
+      <div class="my-work__main">
+        <a href="https://github.com/ParishaCB/internet-safety-website" target="_blank">
+          <img src="./assets/github.png" alt="github-link" class="github-link">
+        </a>
+        <div class="my-work__title">
+          <h2>Internet Safety Website</h2><br>
+        </div>
+        <div class="my-work__desc">
+          <p>My first website! I created a basic website to promote 
+            internet safety.<br><br> Used HTML & CSS and some JavaScript to implement
+            forms and quizzes.
+          </p><br><br>
+        </div>
+        <div class="my-work__tech">
+          <p>HTML CSS JavaScript</p>
+        </div>
+      </div>
+    
+  </section>
+  <!-- My Work Section Ends -->
+
+  <!-- Contact Me Section Starts -->
+  <section id="contactme" class="exp-container" data-aos="fade-up" data-aos-duration="1000">
+    <h1 class="exp-main">Contact Me</h1>
+
+    <div class="contact-me">
+      <h1 class="contact-me__main">Get In Touch!</h1><br>
+      <p class="contact-me__sub">Email Me Here: parishacb@gmail.com</p><br><br><br>
+      <p class="contact-me__sub">Or Connect With Me Below:</p><br>
+
+      <a href="https://linkedin.com/in/parishab" target="_blank" class="contact-links">
+        <img src="./assets/linkedin.png" alt="linkedin" width="30px" height="30px">
+      </a>
+      <a href="https://github.com/parishacb" target="_blank" class="contact-links">
+        <img src="./assets/github.png" alt="github" width="30px" height="30px">
+      </a>
+    </div>
+  </section>
+  <!-- Contact Me Section Ends -->
+
+  <!-- Footer Section Starts -->
+  <footer id="footer" class="footer">
+    <h3 class="footer-main">Contact Me</h3><br>
+    <p class="footer-sub">✉ parishacb@gmail.com</p>
+
+    <br><h3 class="footer-main">Designed & Built By Parisha ✌🏽</h3><br>
+    <p class="footer-sub">Copyright © 2023 </p>
+
+    <br><h3 class="footer-main">Follow Me</h3><br>
+    <a href="https://linkedin.com/in/parishab" target="_blank" class="footer-link">
+      <p class="footer-sub">LinkedIn</p>
+    </a><br>
+    <a href="https://github.com/parishacb" target="_blank" class="footer-link">
+      <p class="footer-sub">Github</p>
+    </a>
+  </footer>
+  <!-- Footer Section Ends -->
+
+
+</body>
+<script src="./js/script.js"></script>
+</html>

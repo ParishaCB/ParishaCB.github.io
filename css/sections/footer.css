@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 50px;
+    margin: 0;
+    column-count: 3;
+    column-gap: 30px;
+    font-family: var(--fontstyle-1);
+    text-align: center;
+}
+
+.footer-main {
+    font-size: 20px;
+}
+
+.footer-sub {
+    font-size: 18px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--color-white);
+}
+.footer-link:hover {
+    color: turquoise;
+}

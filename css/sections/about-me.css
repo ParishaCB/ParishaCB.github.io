@@ -1,0 +1,37 @@
+.about-me {
+    padding: 100px;
+    margin: 0px;
+    background-color: var(--color-white);
+}
+
+.about-me__main { 
+    font-family: var(--fontstyle-1);
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.about-me__sub {
+    font-size: 21.6px;
+    font-weight: 400;
+    font-family: var(--fontstyle-1);
+    column-count: 3;
+    column-gap: 60px;
+    column-rule-width: 10px;
+    column-span: all;
+    align-items: center;
+    line-height: 40px;
+    padding: 80px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about-link {
+    text-decoration: none;
+    background-color: yellow;
+    color: var(--color-black);
+}
+.about-link:hover {
+    background-color: transparent;
+    text-decoration: underline blue;
+}
