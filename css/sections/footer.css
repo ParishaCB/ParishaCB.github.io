@@ -24,3 +24,32 @@
 .footer-link:hover {
     color: turquoise;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 756px) {
+    .footer-main {
+        font-size: 14px;
+    }
+    .footer-sub {
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (max-width: 625px) {
+    .footer-main {
+        font-size: 12px;
+    }
+    .footer-sub {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        display: block;
+        column-count: initial; 
+        column-gap: initial;
+        padding: 20px; 
+    }
+}
