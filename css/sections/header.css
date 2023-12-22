@@ -45,7 +45,7 @@
 }
 
 .header-content {
-    padding-left: 280px;
+    padding-left: 250px;
     padding-top: 90px;
 }
 .header-content__main {
@@ -88,7 +88,7 @@
     cursor: pointer;
     font-family: var(--fontstyle-1);
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .more-button:hover {
     background-color: rgba(0, 193, 174, 0.744);
