@@ -1,5 +1,5 @@
 .contact-me {
-    padding: 100px;
+    padding: 50px;
     font-family: var(--fontstyle-1);
     text-align: center;
     padding-top: 0;
@@ -11,7 +11,7 @@
 
 .contact-me__main {
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .contact-me__sub {
@@ -21,4 +21,93 @@
 .contact-links {
     padding: 10px;
     text-decoration: none;
+} 
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1024px) {
+    .contact-me {
+        padding: 40px;
+        top: 0%;
+        width: 50%;
+        margin-left: 215px;
+    }
+
+    .contact-me__main {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-me {
+        padding: 40px;
+        top: 0%;
+        width: 50%;
+        margin-left: 150px;
+    }
+
+    .contact-me__main {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .contact-me {
+        padding: 20px;
+        top: 0%;
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    .contact-me__main {
+        font-size: 20px;
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .exp-main {
+        font-size: 20px;
+    }
+    .contact-me {
+        padding: 20px;
+        top: 0%;
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    .contact-me__main {
+        font-size: 17px;
+        padding-top: 0px;
+    }
+
+    .contact-me__sub {
+        font-size: 15px;
+    }
+    
+    .contact-links {
+        padding: 5px;
+        font-size: 15px;
+        text-decoration: none;
+    } 
+}
+
+@media only screen and (max-width: 320px) {
+    .contact-me {
+        padding: 40px;
+        top: 0%;
+        width: 220px;
+        left: 10px;
+        transform: translate(-11%);
+    }
+
+    .contact-me__main {
+        font-size: 20px;
+        padding-top: 0px;
+    }
+
+    .contact-me__sub {
+        font-size: 12px;
+    }
 }
