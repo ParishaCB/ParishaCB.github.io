@@ -27,16 +27,13 @@
 
 body {
   background-color:aliceblue;
-  /* TODO: change the font - be mindful of how fonts are imported in the webpage */
-  font-family: 'Noto Sans', sans-serif;
-  /* TODO: change the background colour */
-  color: #827397;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  color: black;
   font-size: 16px;
   line-height:normal;
 }
 h1, h2, h3 {
-  /* TODO: change the header font colour */
-  color: #4D4C7D;
+  color: rgb(10, 97, 113);
 }
 
 h1 {
@@ -59,13 +56,12 @@ p {
 }
 
 a {
-  /* TODO: change the link colours */
   text-decoration: none;
-  color: #363062;
+  color: seagreen;
 }
 
 a:hover {
-  background-color: #827397;
+  background-color: white;
 }
 
 .img-circle {
@@ -73,8 +69,7 @@ a:hover {
 }
 
 .card-white {
-  /* TODO: change the card background colour */
-  background-color: white;
+  background-color: rgb(186, 239, 255);
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0 0 0 / 10%);
   border-radius: 4px;
@@ -83,9 +78,7 @@ a:hover {
 }
 
 .btn-blue {
-  /* TODO: change the button colour */
-  background-color:#4D4C7D;
-  color: #E9D5CA;
+  background-color: whitesmoke;
   padding: 15px 20px;
   border-radius: 4px;
 }
